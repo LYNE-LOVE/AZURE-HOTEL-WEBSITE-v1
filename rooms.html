@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxury Rooms & Suites - Azure Horizon Hotel</title>
+    <link rel="stylesheet" href="rooms.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Cormorant+Garamond:wght@300;400;500;600&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- NAVIGATION -->
+    <header class="main-header">
+        <div class="header-container">
+            <div class="logo">
+                <h1>Azure Horizon</h1>
+                <p class="logo-subtitle">Hotel & Resort</p>
+            </div>
+            <nav class="main-nav">
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="rooms.html" class="active">Rooms & Suites</a></li>
+                    <li><a href="dining.html">Dining</a></li>
+                    <li><a href="amenities.html">Amenities</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <a href="contact.html" class="book-stay-btn">Book Your Stay</a>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- VIDEO HERO SECTION -->
+    <section class="video-hero">
+        <video autoplay muted loop playsinline class="hero-video">
+            <source src="hotelvideo.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="video-overlay"></div>
+        <div class="hero-content">
+            <span class="hero-label">Luxury Accommodations</span>
+            <h1 class="hero-title">Your Private Sanctuary by the Ocean</h1>
+            <p class="hero-description">
+                Wake to endless horizons and curated serenity—where architecture, light, and comfort flow together effortlessly.
+            </p>
+            <div class="hero-actions">
+                <a href="contact.html" class="btn-primary">Reserve Your Room</a>
+                <a href="#rooms-intro" class="btn-secondary">Discover Suites</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Explore Our Rooms</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- INTRO TEXT SECTION -->
+    <section class="rooms-intro" id="rooms-intro">
+        <div class="container">
+            <div class="intro-content">
+                <span class="section-label">Experience</span>
+                <h2 class="section-title">Rooms & Suites</h2>
+                <p class="intro-description">
+                    Each space is designed to flow with the ocean, light, and silence. Slow mornings. Soft textures. A sense of arrival.
+                </p>
+                <p class="intro-highlight">
+                    Azure Horizon is not just a hotel—it's designed as a retreat where every detail invites you to pause, breathe, and reconnect.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- PREMIUM ROOMS SHOWCASE -->
+    <section class="rooms-showcase">
+        <div class="container">
+            <div class="showcase-grid">
+                <!-- Deluxe Ocean Room -->
+                <div class="premium-room-card">
+                    <div class="room-visual">
+                        <div class="room-image deluxe-ocean"></div>
+                        <div class="room-overlay">
+                            <a href="contact.html" class="btn-view">Book Now</a>
+                        </div>
+                    </div>
+                    <div class="room-details">
+                        <div class="room-header">
+                            <h3 class="room-name">Deluxe Ocean Room</h3>
+                            <span class="room-badge popular">Most Popular</span>
+                        </div>
+                        <p class="room-tagline">Front row seat to the rhythm of the tides</p>
+                        <div class="room-description">
+                            <p>Panoramic ocean views, king bed, private balcony. Built with modern minimalist aesthetic that lets the natural beauty take center stage.</p>
+                        </div>
+                        <div class="room-amenities">
+                            <div class="amenity-item">
+                                <span class="amenity-icon">🛏️</span>
+                                <span>King Bed</span>
+                            </div>
+                            <div class="amenity-item">
+                                <span class="amenity-icon">🌊</span>
+                                <span>Ocean View</span>
+                            </div>
+                            <div class="amenity-item">
+                                <span class="amenity-icon">🏖️</span>
+                                <span>Balcony</span>
+                            </div>
+                            <div class="amenity-item">
+                                <span class="amenity-icon">📐</span>
+                                <span>48 m²</span>
+                            </div>
+                        </div>
+                        <div class="room-pricing">
+                            <div class="price-display">
+                                <span class="price-label">From</span>
+                                <span class="price-amount">KES 32,000</span>
+                                <span class="price-period">/ night</span>
+                            </div>
+                            <a href="contact.html" class="btn-book-room">Reserve Now →</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Executive Suite -->
+                <div class="premium-room-card">
+                    <div class="room-visual">
+                        <div class="room-image executive-suite"></div>
+                        <div class="room-overlay">
+                            <a href="contact.html" class="btn-view">Book Now</a>
+                        </div>
+                    </div>
+                    <div class="room-details">
+                        <div class="room-header">
+                            <h3 class="room-name">Executive Suite</h3>
+                            <span class="room-badge premium">Premium</span>
+                        </div>
+                        <p class="room-tagline">Elevated privacy with curated interiors</p>
+                        <div class="room-description">
+                            <p>Separate lounge, curated interiors, elevated privacy. Spa-inspired rain shower with refined multifunctional space.</p>
+                        </div>
+                        <div class="room-amenities">
+                            <div class="amenity-item">
+                                <span class="amenity-icon">🛋️</span>
+                                <span>Lounge</span>
+                            </div>
+                            <div class="amenity-item">
+                                <span class="amenity-icon">🚿</span>
+                                <span>Rain Shower</span>
+                            </div>
+                            <div class="amenity-item">
+                                <span class="amenity-icon">👔</span>
+                                <span>Work Space</span>
+                            </div>
+                            <div class="amenity-item">
+                                <span class="amenity-icon">📐</span>
+                                <span>72 m²</span>
+                            </div>
+                        </div>
+                        <div class="room-pricing">
+                            <div class="price-display">
+                                <span class="price-label">From</span>
+                                <span class="price-amount">KES 48,000</span>
+                                <span class="price-period">/ night</span>
+                            </div>
+                            <a href="contact.html" class="btn-book-room">Reserve Now →</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Romantic Horizon Suite -->
+                <div class="premium-room-card featured">
+                    <div class="room-visual">
+                        <div class="room-image romantic-suite"></div>
+                        <div class="room-overlay">
+                            <a href="contact.html" class="btn-view">Book Now</a>
+                        </div>
+                    </div>
+                    <div class="room-details">
+                        <div class="room-header">
+                            <h3 class="room-name">Romantic Horizon Suite</h3>
+                            <span class="room-badge exclusive">Couples' Favorite</span>
+                        </div>
+                        <p class="room-tagline">Perfect backdrop for "Remember when..." stories</p>
+                        <div class="room-description">
+                            <p>Coral reef views, infinity soaking tub, private sun terrace. Arrival amenities include chilled champagne and personalized touches.</p>
+                        </div>
+                        <div class="room-amenities">
+                            <div class="amenity-item">
+                                <span class="amenity-icon">🛁</span>
+                                <span>Soaking Tub</span>
+                            </div>
+                            <div class="amenity-item">
+                                <span class="amenity-icon">🥂</span>
+                                <span>Champagne</span>
+                            </div>
+                            <div class="amenity-item">
+                                <span class="amenity-icon">☀️</span>
+                                <span>Sun Terrace</span>
+                            </div>
+                            <div class="amenity-item">
+                                <span class="amenity-icon">📐</span>
+                                <span>85 m²</span>
+                            </div>
+                        </div>
+                        <div class="room-pricing">
+                            <div class="price-display">
+                                <span class="price-label">From</span>
+                                <span class="price-amount">KES 54,000</span>
+                                <span class="price-period">/ night</span>
+                            </div>
+                            <a href="contact.html" class="btn-book-room">Reserve Now →</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Presidential Villa -->
+                <div class="premium-room-card signature">
+                    <div class="room-visual">
+                        <div class="room-image presidential-villa"></div>
+                        <div class="room-overlay">
+                            <a href="contact.html" class="btn-view">Book Now</a>
+                        </div>
+                    </div>
+                    <div class="room-details">
+                        <div class="room-header">
+                            <h3 class="room-name">Presidential Villa</h3>
+                            <span class="room-badge signature">Signature</span>
+                        </div>
+                        <p class="room-tagline">Luxury without compromise, space without limits</p>
+                        <div class="room-description">
+                            <p>Ultimate luxury with private infinity pool and dedicated butler service. Experience unparalleled privacy and indulgence.</p>
+                        </div>
+                        <div class="room-amenities">
+                            <div class="amenity-item">
+                                <span class="amenity-icon">🏊</span>
+                                <span>Private Pool</span>
+                            </div>
+                            <div class="amenity-item">
+                                <span class="amenity-icon">🤵</span>
+                                <span>Butler Service</span>
+                            </div>
+                            <div class="amenity-item">
+                                <span class="amenity-icon">🏡</span>
+                                <span>Villa Style</span>
+                            </div>
+                            <div class="amenity-item">
+                                <span class="amenity-icon">📐</span>
+                                <span>150 m²</span>
+                            </div>
+                        </div>
+                        <div class="room-pricing">
+                            <div class="price-display">
+                                <span class="price-label">From</span>
+                                <span class="price-amount">KES 85,000</span>
+                                <span class="price-period">/ night</span>
+                            </div>
+                            <a href="contact.html" class="btn-book-room">Reserve Now →</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- AMENITIES HIGHLIGHT -->
+    <section class="amenities-highlight">
+        <div class="container">
+            <div class="amenities-content">
+                <span class="section-label">In Every Room</span>
+                <h2 class="section-title">Premium Amenities</h2>
+                <div class="amenities-grid">
+                    <div class="amenity-card">
+                        <div class="amenity-icon-large">📺</div>
+                        <h4>Smart Entertainment</h4>
+                        <p>55" Smart TV with streaming</p>
+                    </div>
+                    <div class="amenity-card">
+                        <div class="amenity-icon-large">☕</div>
+                        <h4>Premium Refreshments</h4>
+                        <p>Espresso machine & minibar</p>
+                    </div>
+                    <div class="amenity-card">
+                        <div class="amenity-icon-large">🌡️</div>
+                        <h4>Climate Control</h4>
+                        <p>Individual AC & heating</p>
+                    </div>
+                    <div class="amenity-card">
+                        <div class="amenity-icon-large">🧴</div>
+                        <h4>Luxury Toiletries</h4>
+                        <p>Organic bath products</p>
+                    </div>
+                    <div class="amenity-card">
+                        <div class="amenity-icon-large">📶</div>
+                        <h4>High-Speed WiFi</h4>
+                        <p>Complimentary connectivity</p>
+                    </div>
+                    <div class="amenity-card">
+                        <div class="amenity-icon-large">🛎️</div>
+                        <h4>Concierge Service</h4>
+                        <p>24/7 personalized assistance</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA SECTION -->
+    <section class="rooms-cta">
+        <div class="cta-background"></div>
+        <div class="cta-overlay"></div>
+        <div class="container">
+            <div class="cta-inner">
+                <span class="cta-label">Ready for Your Escape?</span>
+                <h2 class="cta-title">Luxury Isn't Loud. It's Calm. It's Intentional.</h2>
+                <p class="cta-description">
+                    Book your sanctuary by the ocean and experience the perfect blend of comfort, elegance, and tranquility.
+                </p>
+                <a href="contact.html" class="btn-cta">Book Your Stay</a>
+                <div class="cta-features">
+                    <div class="cta-feature">
+                        <span class="check-icon">✓</span>
+                        <span>Best Rate Guarantee</span>
+                    </div>
+                    <div class="cta-feature">
+                        <span class="check-icon">✓</span>
+                        <span>Flexible Cancellation</span>
+                    </div>
+                    <div class="cta-feature">
+                        <span class="check-icon">✓</span>
+                        <span>Instant Confirmation</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col brand">
+                    <h3 class="footer-logo">Azure Horizon</h3>
+                    <p class="footer-tagline">Where luxury meets serenity</p>
+                    <div class="footer-contact">
+                        <p><strong>Phone:</strong> <a href="tel:+254 711 323 066">+1 (234) 567-890</a></p>
+                        <p><strong>Email:</strong> <a href="mailto:info@azurehorizon.com">info@azurehorizon.com</a></p>
+                        <p><strong>Address:</strong> 123 Ocean Drive, Paradise Bay</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook" class="social-icon">f</a>
+                        <a href="#" aria-label="Instagram" class="social-icon">📷</a>
+                        <a href="#" aria-label="Twitter" class="social-icon">🐦</a>
+                        <a href="#" aria-label="LinkedIn" class="social-icon">in</a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="rooms.html">Rooms & Suites</a></li>
+                        <li><a href="dining.html">Dining</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Experience</h4>
+                    <ul>
+                        <li><a href="amenities.html">Amenities</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="events.html">Events</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Connect</h4>
+                    <ul>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="#careers">Careers</a></li>
+                        <li><a href="#privacy">Privacy Policy</a></li>
+                        <li><a href="#terms">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Azure Horizon Hotel. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        const hamburger = document.querySelector('.hamburger');
+        const mainNav = document.querySelector('.main-nav');
+        
+        if (hamburger && mainNav) {
+            hamburger.addEventListener('click', () => {
+                hamburger.classList.toggle('active');
+                mainNav.classList.toggle('active');
+            });
+
+            // Close mobile menu when clicking on a link
+            document.querySelectorAll('.nav-menu a').forEach(link => {
+                link.addEventListener('click', () => {
+                    hamburger.classList.remove('active');
+                    mainNav.classList.remove('active');
+                });
+            });
+        }
+
+        // Scroll animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, observerOptions);
+
+        // Observe all animated elements
+        document.querySelectorAll('.premium-room-card, .amenity-card, .cta-feature, .intro-content').forEach(el => {
+            observer.observe(el);
+        });
+
+        // Header scroll effect
+        const mainHeader = document.querySelector('.main-header');
+        let lastScroll = 0;
+
+        window.addEventListener('scroll', () => {
+            const currentScroll = window.pageYOffset;
+            
+            if (currentScroll > 100) {
+                mainHeader.classList.add('scrolled');
+            } else {
+                mainHeader.classList.remove('scrolled');
+            }
+            
+            lastScroll = currentScroll;
+        });
+
+        // Video autoplay fallback
+        const heroVideo = document.querySelector('.hero-video');
+        if (heroVideo) {
+            heroVideo.play().catch(error => {
+                console.log('Video autoplay failed:', error);
+            });
+        }
+    </script>
+</body>
+</html>
+
