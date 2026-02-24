@@ -1,9 +1,4 @@
-/* ===================================
-   DINING PAGE - AZURE HORIZON HOTEL
-   Luxury Fine Dining Experience
-   =================================== */
-
-/* ROOT VARIABLES - Extended Color Palette */
+/*DINING PAGE - AZURE */
 :root {
     /* Blue Shades */
     --navy-deep: #0a1e3d;
@@ -207,9 +202,7 @@ body {
     border-radius: 3px;
 }
 
-/* ===================================
-   HERO SECTION
-   =================================== */
+/*HERO SECTION*/
 .dining-hero {
     position: relative;
     height: 70vh;
@@ -227,6 +220,9 @@ body {
     width: 100%;
     height: 100%;
     background: linear-gradient(135deg, var(--deep-teal) 0%, var(--navy-blue) 50%, var(--ocean-blue) 100%);
+    background-image: url('food1.jpeg'); 
+    background-size: cover;
+    background-position: center;
     z-index: 1;
 }
 
@@ -323,9 +319,7 @@ body {
     }
 }
 
-/* ===================================
-   INTRO SECTION
-   =================================== */
+/*INTRO SECTION*/
 .dining-intro {
     padding: var(--spacing-xl) 0;
     background: linear-gradient(to bottom, var(--white) 0%, var(--ice-blue) 50%, var(--aqua-pale) 100%);
@@ -365,9 +359,7 @@ body {
     margin-bottom: 1.5rem;
 }
 
-/* ===================================
-   RESTAURANTS SECTION
-   =================================== */
+/*RESTAURANTS SECTION */
 .restaurants-section {
     padding: var(--spacing-xl) 0;
     background: linear-gradient(to bottom, var(--aqua-pale) 0%, var(--seafoam) 30%, var(--ice-blue) 70%, var(--powder-blue) 100%);
@@ -429,18 +421,30 @@ body {
 
 .oceana-restaurant {
     background: linear-gradient(135deg, var(--ocean-blue) 0%, var(--aqua-main) 50%, var(--rich-teal) 100%);
+    background-image: url('oceaniagrill.jpeg'); /* ADD OCEANA GRILL IMAGE */
+    background-size: cover;
+    background-position: center;
 }
 
 .garden-restaurant {
     background: linear-gradient(135deg, var(--forest-green) 0%, var(--jade) 50%, var(--mint) 100%);
+    background-image: url('garden.jpeg'); /* ADD GARDEN TERRACE IMAGE */
+    background-size: cover;
+    background-position: center;
 }
 
 .sapphire-lounge {
     background: linear-gradient(135deg, var(--navy-blue) 0%, var(--sky-blue) 50%, var(--aqua-bright) 100%);
+    background-image: url('lounge.jpeg'); /* ADD SAPPHIRE LOUNGE IMAGE */
+    background-size: cover;
+    background-position: center;
 }
 
 .bistro-restaurant {
     background: linear-gradient(135deg, var(--emerald) 0%, var(--aqua-main) 50%, var(--sage) 100%);
+    background-image: url('bistro.jpeg'); /* ADD AZURE BISTRO IMAGE */
+    background-size: cover;
+    background-position: center;
 }
 
 .restaurant-badge {
@@ -581,9 +585,7 @@ body {
     box-shadow: 0 8px 30px rgba(20, 184, 166, 0.5);
 }
 
-/* ===================================
-   DINING EXPERIENCES
-   =================================== */
+/*DINING EXPERIENCES*/
 .dining-experiences {
     padding: var(--spacing-xl) 0;
     background: linear-gradient(to bottom, var(--powder-blue) 0%, var(--seafoam) 50%, var(--aqua-pale) 100%);
@@ -640,9 +642,7 @@ body {
     color: var(--dark-gray);
 }
 
-/* ===================================
-   RESERVATIONS CTA
-   =================================== */
+/*RESERVATIONS CTA*/
 .reservations-cta {
     position: relative;
     padding: var(--spacing-xl) 0;
@@ -795,9 +795,7 @@ body {
     color: var(--aqua-bright);
 }
 
-/* ===================================
-   FOOTER
-   =================================== */
+/*FOOTER */
 .main-footer {
     background: linear-gradient(to bottom, var(--navy-deep) 0%, var(--deep-teal) 100%);
     color: var(--white);
@@ -923,9 +921,8 @@ body {
     color: var(--gray);
 }
 
-/* ===================================
-   RESPONSIVE DESIGN
-   =================================== */
+/*RESPONSIVE DESIGN
+
 
 /* Tablet */
 @media (max-width: 968px) {

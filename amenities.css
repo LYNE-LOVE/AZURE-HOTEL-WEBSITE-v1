@@ -1,8 +1,4 @@
-/* ===================================
-   AMENITIES PAGE - AZURE HORIZON HOTEL
-   World-Class Facilities & Experiences
-   =================================== */
-
+/*AMENITIES PAGE */
 /* ROOT VARIABLES - Extended Color Palette */
 :root {
     /* Blue Shades */
@@ -80,9 +76,7 @@ body {
     padding: 0 2rem;
 }
 
-/* ===================================
-   HEADER / NAVIGATION
-   =================================== */
+/* HEADER / NAVIGATION*/
 .main-header {
     position: fixed;
     top: 0;
@@ -207,9 +201,7 @@ body {
     border-radius: 3px;
 }
 
-/* ===================================
-   HERO SECTION
-   =================================== */
+/*HERO SECTION*/
 .amenities-hero {
     position: relative;
     height: 70vh;
@@ -327,9 +319,7 @@ body {
     }
 }
 
-/* ===================================
-   AUTO-SCROLLING AMENITIES CAROUSEL
-   =================================== */
+/*AUTO-SCROLLING AMENITIES CAROUSEL*/
 .amenities-carousel {
     background: linear-gradient(135deg, var(--navy-blue) 0%, var(--deep-teal) 50%, var(--forest-green) 100%);
     padding: 2.5rem 0;
@@ -392,9 +382,7 @@ body {
     animation-play-state: paused;
 }
 
-/* ===================================
-   INTRO SECTION
-   =================================== */
+/*INTRO SECTION*/
 .amenities-intro {
     padding: var(--spacing-xl) 0;
     background: linear-gradient(to bottom, var(--white) 0%, var(--ice-blue) 50%, var(--aqua-pale) 100%);
@@ -434,9 +422,7 @@ body {
     margin-bottom: 1.5rem;
 }
 
-/* ===================================
-   SIGNATURE AMENITIES GRID
-   =================================== */
+/*SIGNATURE AMENITIES GRID */
 .signature-amenities {
     padding: var(--spacing-xl) 0;
     background: linear-gradient(to bottom, var(--aqua-pale) 0%, var(--seafoam) 25%, var(--powder-blue) 50%, var(--ice-blue) 75%, var(--aqua-pale) 100%);
@@ -509,26 +495,44 @@ body {
 
 .underwater-spa {
     background: linear-gradient(135deg, var(--ocean-blue) 0%, var(--aqua-main) 50%, var(--rich-teal) 100%);
+    background-image: url('underwater.png'); 
+    background-size: cover;
+    background-position: center;
 }
 
 .rooftop-observatory {
     background: linear-gradient(135deg, var(--navy-deep) 0%, var(--navy-blue) 50%, var(--sky-blue) 100%);
+    background-image: url('space.png'); /
+    background-size: cover;
+    background-position: center;
 }
 
 .aquatic-fitness {
     background: linear-gradient(135deg, var(--aqua-main) 0%, var(--aqua-bright) 50%, var(--aqua-light) 100%);
+    background-image: url('gym.png'); 
+    background-size: cover;
+    background-position: center;
 }
 
 .holistic-sanctuary {
     background: linear-gradient(135deg, var(--forest-green) 0%, var(--jade) 50%, var(--mint) 100%);
+    background-image: url('wellness.jpeg');
+    background-size: cover;
+    background-position: center;
 }
 
 .culinary-academy {
     background: linear-gradient(135deg, var(--emerald) 0%, var(--jade) 50%, var(--sage) 100%);
+    background-image: url('culinary.jpeg'); 
+    background-size: cover;
+    background-position: center;
 }
 
 .marine-center {
     background: linear-gradient(135deg, var(--deep-teal) 0%, var(--aqua-main) 50%, var(--aqua-light) 100%);
+    background-image: url('conservation.jpeg'); 
+    background-size: cover;
+    background-position: center;
 }
 
 .amenity-badge {
@@ -647,9 +651,7 @@ body {
     box-shadow: 0 8px 30px rgba(20, 184, 166, 0.5);
 }
 
-/* ===================================
-   STANDARD AMENITIES
-   =================================== */
+/*STANDARD AMENITIES*/
 .standard-amenities {
     padding: var(--spacing-xl) 0;
     background: linear-gradient(to bottom, var(--aqua-pale) 0%, var(--seafoam) 50%, var(--powder-blue) 100%);
@@ -706,9 +708,7 @@ body {
     color: var(--dark-gray);
 }
 
-/* ===================================
-   AMENITIES CTA
-   =================================== */
+/*AMENITIES CTA*/
 .amenities-cta {
     position: relative;
     padding: var(--spacing-xl) 0;
@@ -847,9 +847,7 @@ body {
     flex-shrink: 0;
 }
 
-/* ===================================
-   FOOTER
-   =================================== */
+/*FOOTER*/
 .main-footer {
     background: linear-gradient(to bottom, var(--navy-deep) 0%, var(--deep-teal) 100%);
     color: var(--white);
@@ -975,9 +973,7 @@ body {
     color: var(--gray);
 }
 
-/* ===================================
-   RESPONSIVE DESIGN
-   =================================== */
+/*RESPONSIVE DESIGN*/
 
 /* Tablet */
 @media (max-width: 968px) {

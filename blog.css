@@ -1,7 +1,4 @@
-/* ===================================
-   BLOG PAGE - AZURE HORIZON HOTEL
-   Dynamic Content, Interactive & SEO Optimized
-   =================================== */
+/*BLOG PAGE*/
 
 /* ROOT VARIABLES */
 :root {
@@ -72,9 +69,7 @@ body {
     padding: 0 2rem;
 }
 
-/* ===================================
-   HEADER / NAVIGATION
-   =================================== */
+/*HEADER / NAVIGATION*/
 .main-header {
     position: fixed;
     top: 0;
@@ -198,9 +193,7 @@ body {
     border-radius: 3px;
 }
 
-/* ===================================
-   BLOG HERO WITH BACKGROUND IMAGE
-   =================================== */
+/*BLOG HERO WITH BACKGROUND IMAGE*/
 .blog-hero {
     position: relative;
     height: 65vh;
@@ -218,7 +211,7 @@ body {
     width: 100%;
     height: 100%;
     background: linear-gradient(135deg, var(--navy-deep) 0%, var(--ocean-blue) 25%, var(--aqua-main) 50%, var(--jade) 75%, var(--emerald) 100%);
-    /* Add your image here: background-image: url('your-image.jpg'); */
+    background-image: url('blogimage.jpeg'); /* ADD YOUR HERO IMAGE HERE */
     background-size: cover;
     background-position: center;
     z-index: 1;
@@ -276,9 +269,7 @@ body {
     to { opacity: 1; transform: translateY(0); }
 }
 
-/* ===================================
-   FEATURED LATEST POST - STANDOUT DESIGN
-   =================================== */
+/*FEATURED LATEST POST - STANDOUT DESIGN*/
 .featured-post {
     padding: var(--spacing-xl) 0;
     background: linear-gradient(to bottom, var(--white) 0%, var(--ice-blue) 50%, var(--aqua-pale) 100%);
@@ -361,7 +352,7 @@ body {
     width: 100%;
     height: 100%;
     background: linear-gradient(135deg, var(--ocean-blue) 0%, var(--aqua-main) 50%, var(--jade) 100%);
-    /* Add your image: background-image: url('featured-image.jpg'); */
+    background-image: url('blog2.jpeg');
     background-size: cover;
     background-position: center;
     transition: transform 0.8s ease;
@@ -518,9 +509,7 @@ body {
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
 }
 
-/* ===================================
-   BLOG CATEGORIES FILTER
-   =================================== */
+/*BLOG CATEGORIES FILTER */
 .blog-categories {
     padding: 3rem 0;
     background: linear-gradient(to bottom, var(--aqua-pale) 0%, var(--seafoam) 100%);
@@ -561,9 +550,7 @@ body {
     box-shadow: 0 4px 15px rgba(20, 184, 166, 0.3);
 }
 
-/* ===================================
-   BLOG POSTS GRID
-   =================================== */
+/*BLOG POSTS GRID*/
 .blog-posts {
     padding: var(--spacing-xl) 0;
     background: linear-gradient(to bottom, var(--seafoam) 0%, var(--powder-blue) 50%, var(--ice-blue) 100%);
@@ -726,9 +713,7 @@ body {
     box-shadow: 0 8px 30px rgba(20, 184, 166, 0.5);
 }
 
-/* ===================================
-   NEWSLETTER SIGNUP
-   =================================== */
+/*NEWSLETTER SIGNUP*/
 .newsletter-signup {
     padding: var(--spacing-xl) 0;
     background: linear-gradient(135deg, var(--navy-deep), var(--ocean-blue), var(--aqua-main));
@@ -805,9 +790,7 @@ body {
     color: var(--aqua-pale);
 }
 
-/* ===================================
-   POPULAR POSTS SIDEBAR
-   =================================== */
+/*POPULAR POSTS SIDEBAR*/
 .popular-posts {
     padding: var(--spacing-xl) 0;
     background: linear-gradient(to bottom, var(--ice-blue) 0%, var(--aqua-pale) 100%);
@@ -923,9 +906,7 @@ body {
     transform: translateY(-3px);
 }
 
-/* ===================================
-   COMMENTS SECTION
-   =================================== */
+/*COMMENTS SECTION*/
 .comments-section {
     padding: var(--spacing-xl) 0;
     background: linear-gradient(to bottom, var(--aqua-pale) 0%, var(--seafoam) 100%);
@@ -1092,9 +1073,7 @@ body {
     color: var(--white);
 }
 
-/* ===================================
-   FINAL CTA
-   =================================== */
+/*FINAL CTA */
 .blog-cta {
     position: relative;
     padding: var(--spacing-xl) 0;
@@ -1197,9 +1176,7 @@ body {
     transform: translateY(-3px);
 }
 
-/* ===================================
-   FOOTER
-   =================================== */
+/*FOOTER*/
 .main-footer {
     background: linear-gradient(to bottom, var(--navy-deep) 0%, var(--deep-teal) 100%);
     color: var(--white);
@@ -1323,9 +1300,7 @@ body {
     color: var(--gray);
 }
 
-/* ===================================
-   RESPONSIVE DESIGN
-   =================================== */
+/*RESPONSIVE DESIGN*/
 
 @media (max-width: 968px) {
     .hero-title {

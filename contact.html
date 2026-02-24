@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Azure Horizon Hotel | Get in Touch</title>
+    <meta name="description" content="Contact Azure Horizon Hotel for reservations, events, and inquiries. We're here to help make your stay unforgettable.">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Cormorant+Garamond:wght@300;400;500;600&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- HEADER / NAVIGATION -->
+    <header class="main-header">
+        <div class="header-container">
+            <div class="logo">
+                <h1>Azure Horizon</h1>
+                <p class="logo-subtitle">Hotel & Resort</p>
+            </div>
+            <nav class="main-nav">
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="rooms.html">Rooms & Suites</a></li>
+                    <li><a href="dining.html">Dining</a></li>
+                    <li><a href="amenities.html">Amenities</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+            <a href="#booking-form" class="book-stay-btn">Book Your Stay</a>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- CONTACT HERO SECTION -->
+    <section class="contact-hero">
+        <div class="hero-background"></div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <span class="hero-label">We're Here to Help</span>
+            <h1 class="hero-title">Get in Touch</h1>
+            <p class="hero-description">Whether you're planning your stay or have questions, our team is ready to assist you</p>
+        </div>
+    </section>
+
+     <!-- QUICK CONTACT CARDS WITH ACTION BUTTONS -->
+<section class="quick-contact">
+    <div class="container">
+        <div class="contact-cards">
+            <!-- CALL BUTTON -->
+            <div class="contact-card">
+                <div class="card-icon">📞</div>
+                <h3>Call Us</h3>
+                <p class="contact-detail">+254 711 323 066</p>
+                <p class="contact-label">Available 24/7</p>
+                <a href="tel:+254711323066" class="action-btn call-btn">
+                    <span>📱 Call Now</span>
+                </a>
+            </div>
+
+            <!-- EMAIL BUTTON -->
+            <div class="contact-card">
+                <div class="card-icon">✉️</div>
+                <h3>Email Us</h3>
+                <p class="contact-detail">info@azurehorizon.com</p>
+                <p class="contact-label">Quick Response Time</p>
+                <a href="mailto:info@azurehorizon.com?subject=Inquiry%20from%20Azure%20Horizon%20Website&body=Hello%20Azure%20Horizon%20Team,%0D%0A%0D%0AI%20would%20like%20to%20inquire%20about..." class="action-btn email-btn">
+                    <span>📧 Send Email</span>
+                </a>
+            </div>
+
+            <!-- WHATSAPP BUTTON -->
+            <div class="contact-card">
+                <div class="card-icon">💬</div>
+                <h3>WhatsApp Us</h3>
+                <p class="contact-detail">+254 711 323 066</p>
+                <p class="contact-label">Instant Messaging</p>
+                <a href="https://wa.me/254711323066?text=Hello%20Azure%20Horizon!%20I%20would%20like%20to%20inquire%20about%20booking%20a%20room." target="_blank" class="action-btn whatsapp-btn">
+                    <span>💬 Chat on WhatsApp</span>
+                </a>
+            </div>
+
+            <!-- LOCATION CARD -->
+            <div class="contact-card">
+                <div class="card-icon">📍</div>
+                <h3>Visit Us</h3>
+                <p class="contact-detail">123 Ocean Drive</p>
+                <p class="contact-label">Kisumu, Kisumu County</p>
+                <a href="#map-section" class="action-btn location-btn">
+                    <span>🗺️ View Map</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+ 
+    <!-- MAIN CONTACT SECTION -->
+    <section class="main-contact-section">
+        <div class="container">
+            <div class="contact-grid">
+                <!-- CONTACT FORM -->
+                <div class="contact-form-wrapper">
+                    <div class="form-header">
+                        <span class="section-label">Send Us a Message</span>
+                        <h2 class="section-title">Contact Form</h2>
+                        <p class="form-description">Fill out the form below and we'll get back to you as soon as possible</p>
+                    </div>
+
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="firstName">First Name *</label>
+                                <input type="text" id="firstName" name="firstName" required placeholder="John">
+                            </div>
+                            <div class="form-group">
+                                <label for="lastName">Last Name *</label>
+                                <input type="text" id="lastName" name="lastName" required placeholder="Doe">
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" name="email" required placeholder="john.doe@example.com">
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone Number *</label>
+                                <input type="tel" id="phone" name="phone" required placeholder="+254 700 000 000">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Subject *</label>
+                            <select id="subject" name="subject" required>
+                                <option value="">Select a subject...</option>
+                                <option value="general">General Inquiry</option>
+                                <option value="reservation">Room Reservation</option>
+                                <option value="events">Event Booking</option>
+                                <option value="corporate">Corporate Booking</option>
+                                <option value="amenities">Amenities Question</option>
+                                <option value="membership">Membership Inquiry</option>
+                                <option value="competition">Competition Entry</option>
+                                <option value="feedback">Feedback</option>
+                                <option value="complaint">Complaint/Issue</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Your Message *</label>
+                            <textarea id="message" name="message" rows="6" required placeholder="Tell us how we can help you..."></textarea>
+                        </div>
+
+                        <div class="form-group checkbox-group">
+                            <input type="checkbox" id="newsletter" name="newsletter">
+                            <label for="newsletter">Subscribe to our newsletter for exclusive offers and updates</label>
+                        </div>
+
+                        <button type="submit" class="btn-submit">
+                            <span>Send Message</span>
+                            <span class="btn-icon">→</span>
+                        </button>
+                    </form>
+                </div>
+
+                <!-- CONTACT INFORMATION SIDEBAR -->
+                <div class="contact-info-sidebar">
+                    <!-- Department Contacts -->
+                    <div class="info-section">
+                        <h3 class="info-title">Contact Departments</h3>
+                        
+                        <div class="department-item">
+                            <div class="dept-icon">🏨</div>
+                            <div class="dept-info">
+                                <h4>Reservations</h4>
+                                <p><a href="mailto:reservations@azurehorizon.com">reservations@azurehorizon.com</a></p>
+                                <p><a href="tel:+254711323066">+254 711 323 066</a></p>
+                            </div>
+                        </div>
+
+                        <div class="department-item">
+                            <div class="dept-icon">🎉</div>
+                            <div class="dept-info">
+                                <h4>Events & Conferences</h4>
+                                <p><a href="mailto:events@azurehorizon.com">events@azurehorizon.com</a></p>
+                                <p><a href="tel:+254711323067">+254 711 323 067</a></p>
+                            </div>
+                        </div>
+
+                        <div class="department-item">
+                            <div class="dept-icon">💼</div>
+                            <div class="dept-info">
+                                <h4>Corporate Bookings</h4>
+                                <p><a href="mailto:corporate@azurehorizon.com">corporate@azurehorizon.com</a></p>
+                                <p><a href="tel:+254711323068">+254 711 323 068</a></p>
+                            </div>
+                        </div>
+
+                        <div class="department-item">
+                            <div class="dept-icon">ℹ️</div>
+                            <div class="dept-info">
+                                <h4>General Information</h4>
+                                <p><a href="mailto:info@azurehorizon.com">info@azurehorizon.com</a></p>
+                                <p><a href="tel:+254711323066">+254 711 323 066</a></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Physical Address -->
+                    <div class="info-section">
+                        <h3 class="info-title">Our Location</h3>
+                        <div class="address-details">
+                            <p><strong>Azure Horizon Hotel & Resort</strong></p>
+                            <p>123 Ocean Lyne</p>
+                            <p>Paradise Bay Beach</p>
+                            <p>Kisumu City, Kisumu County</p>
+                            <p>Kenya</p>
+                        </div>
+                    </div>
+
+                    <!-- Business Hours -->
+                    <div class="info-section">
+                        <h3 class="info-title">Business Hours</h3>
+                        <div class="hours-list">
+                            <div class="hours-item">
+                                <span class="day">Reception</span>
+                                <span class="time">24/7</span>
+                            </div>
+                            <div class="hours-item">
+                                <span class="day">Reservations</span>
+                                <span class="time">7:00 AM - 10:00 PM</span>
+                            </div>
+                            <div class="hours-item">
+                                <span class="day">Restaurant</span>
+                                <span class="time">6:00 AM - 11:00 PM</span>
+                            </div>
+                            <div class="hours-item">
+                                <span class="day">Spa & Wellness</span>
+                                <span class="time">8:00 AM - 9:00 PM</span>
+                            </div>
+                            <div class="hours-item">
+                                <span class="day">Concierge</span>
+                                <span class="time">24/7</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Social Media -->
+                    <div class="info-section">
+                        <h3 class="info-title">Follow Us</h3>
+                        <div class="social-links-large">
+                            <a href="#" class="social-link facebook">
+                                <span class="social-icon">f</span>
+                                <span class="social-name">Facebook</span>
+                            </a>
+                            <a href="#" class="social-link instagram">
+                                <span class="social-icon">📷</span>
+                                <span class="social-name">Instagram</span>
+                            </a>
+                            <a href="#" class="social-link twitter">
+                                <span class="social-icon">🐦</span>
+                                <span class="social-name">Twitter</span>
+                            </a>
+                            <a href="#" class="social-link linkedin">
+                                <span class="social-icon">in</span>
+                                <span class="social-name">LinkedIn</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- INTERACTIVE MAP SECTION -->
+    <section class="map-section" id="map-section">
+        <div class="container">
+            <div class="map-header">
+                <span class="section-label">Find Us</span>
+                <h2 class="section-title">Our Location on the Map</h2>
+            </div>
+            <div class="map-container">
+                <div class="interactive-map">
+                    <!-- Replace this with actual Google Maps embed -->
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d255282.3214088796!2d34.529171!3d-0.091702!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182aa3e0d8b4ed31%3A0x4258c1a813b6a8f!2sKisumu!5e0!3m2!1sen!2ske!4v1234567890"
+                        width="100%" 
+                        height="500" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SPECIAL BOOKING SECTIONS -->
+    <section class="special-bookings">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Specialized Services</span>
+                <h2 class="section-title">Book Your Experience</h2>
+                <p class="section-description">Explore our range of specialized services tailored to your needs</p>
+            </div>
+
+            <div class="booking-options-grid">
+                <div class="booking-option-card">
+                    <div class="option-icon">🎊</div>
+                    <h3>Event Booking</h3>
+                    <p>Host your special occasion in our stunning venues. From weddings to corporate events, we make every moment memorable.</p>
+                    <ul class="option-features">
+                        <li>✓ Customized Event Planning</li>
+                        <li>✓ Professional Event Coordinators</li>
+                        <li>✓ Catering & Entertainment</li>
+                    </ul>
+                    <a href="events.html" class="btn-option">Explore Events →</a>
+                </div>
+
+                <div class="booking-option-card">
+                    <div class="option-icon">💼</div>
+                    <h3>Corporate Bookings</h3>
+                    <p>Perfect for business meetings, conferences, and team retreats. Special corporate rates and packages available.</p>
+                    <ul class="option-features">
+                        <li>✓ Meeting Rooms & Conference Halls</li>
+                        <li>✓ Business Amenities</li>
+                        <li>✓ Group Discounts</li>
+                    </ul>
+                    <a href="#contact-form" class="btn-option">Get Quote →</a>
+                </div>
+
+                <div class="booking-option-card">
+                    <div class="option-icon">🏆</div>
+                    <h3>Competitions & Contests</h3>
+                    <p>Enter our exclusive competitions for a chance to win amazing prizes including free stays and spa treatments.</p>
+                    <ul class="option-features">
+                        <li>✓ Monthly Giveaways</li>
+                        <li>✓ Exclusive Prizes</li>
+                        <li>✓ Easy Entry Process</li>
+                    </ul>
+                    <a href="blog.html" class="btn-option">Enter Now →</a>
+                </div>
+
+                <div class="booking-option-card">
+                    <div class="option-icon">⭐</div>
+                    <h3>Membership Program</h3>
+                    <p>Join our exclusive membership program for special benefits, discounts, and priority reservations.</p>
+                    <ul class="option-features">
+                        <li>✓ 20% Off Room Rates</li>
+                        <li>✓ Priority Reservations</li>
+                        <li>✓ Exclusive Member Events</li>
+                    </ul>
+                    <a href="#contact-form" class="btn-option">Join Today →</a>
+                </div>
+
+                <div class="booking-option-card">
+                    <div class="option-icon">💆</div>
+                    <h3>Spa & Wellness Bookings</h3>
+                    <p>Reserve your spot at our award-winning spa. Treatments, massages, and wellness programs available.</p>
+                    <ul class="option-features">
+                        <li>✓ Expert Therapists</li>
+                        <li>✓ Luxury Treatments</li>
+                        <li>✓ Wellness Packages</li>
+                    </ul>
+                    <a href="amenities.html" class="btn-option">Book Spa →</a>
+                </div>
+
+                <div class="booking-option-card">
+                    <div class="option-icon">🍽️</div>
+                    <h3>Restaurant Reservations</h3>
+                    <p>Reserve your table at our fine dining restaurants. Experience culinary excellence with ocean views.</p>
+                    <ul class="option-features">
+                        <li>✓ Michelin-Star Chefs</li>
+                        <li>✓ Premium Dining</li>
+                        <li>✓ Private Dining Options</li>
+                    </ul>
+                    <a href="dining.html" class="btn-option">Reserve Table →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FEEDBACK SECTION -->
+    <section class="feedback-section">
+        <div class="container">
+            <div class="feedback-wrapper">
+                <div class="feedback-content">
+                    <span class="section-label">We Value Your Opinion</span>
+                    <h2 class="section-title">Share Your Experience</h2>
+                    <p class="feedback-description">Your feedback helps us improve and serve you better. Whether it's a compliment, suggestion, or concern, we want to hear from you.</p>
+                    <div class="feedback-options">
+                        <a href="#contactForm" class="feedback-btn">
+                            <span class="fb-icon">💬</span>
+                            <span class="fb-text">Send Feedback</span>
+                        </a>
+                        <a href="blog.html" class="feedback-btn">
+                            <span class="fb-icon">⭐</span>
+                            <span class="fb-text">Leave a Review</span>
+                        </a>
+                        <a href="#contactForm" class="feedback-btn">
+                            <span class="fb-icon">📢</span>
+                            <span class="fb-text">Report an Issue</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="feedback-visual">
+                    <div class="testimonial-preview">
+                        <p class="testimonial-text">"Azure Horizon exceeded all our expectations. The service was impeccable and the views were breathtaking!"</p>
+                        <p class="testimonial-author">— Sarah M., Guest</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FINAL CTA -->
+    <section class="contact-cta">
+        <div class="cta-background"></div>
+        <div class="cta-overlay"></div>
+        <div class="container">
+            <div class="cta-content">
+                <h2 class="cta-title">Ready to Experience Azure Horizon?</h2>
+                <p class="cta-description">Let us help you plan the perfect getaway. Our team is standing by to make your stay unforgettable.</p>
+                <div class="cta-buttons">
+                    <a href="#booking-form" class="btn-book large">Book Now</a>
+                    <a href="rooms.html" class="btn-outline">View Rooms</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col brand">
+                    <h3 class="footer-logo">Azure Horizon</h3>
+                    <p class="footer-tagline">Where luxury meets serenity</p>
+                    <div class="footer-contact">
+                        <p><strong>Phone:</strong> <a href="tel:+254711323066">+254 711 323 066</a></p>
+                        <p><strong>Email:</strong> <a href="mailto:info@azurehorizon.com">info@azurehorizon.com</a></p>
+                        <p><strong>Address:</strong> 123 Ocean Drive, Paradise Bay, Kisumu</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook" class="social-icon">f</a>
+                        <a href="#" aria-label="Instagram" class="social-icon">📷</a>
+                        <a href="#" aria-label="Twitter" class="social-icon">🐦</a>
+                        <a href="#" aria-label="LinkedIn" class="social-icon">in</a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="rooms.html">Rooms & Suites</a></li>
+                        <li><a href="dining.html">Dining</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Experience</h4>
+                    <ul>
+                        <li><a href="amenities.html">Amenities</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="events.html">Events</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Connect</h4>
+                    <ul>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="#careers">Careers</a></li>
+                        <li><a href="#privacy">Privacy Policy</a></li>
+                        <li><a href="#terms">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Azure Horizon Hotel. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        const hamburger = document.querySelector('.hamburger');
+        const mainNav = document.querySelector('.main-nav');
+        
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            mainNav.classList.toggle('active');
+        });
+
+        // Close mobile menu
+        document.querySelectorAll('.nav-menu a').forEach(link => {
+            link.addEventListener('click', () => {
+                hamburger.classList.remove('active');
+                mainNav.classList.remove('active');
+            });
+        });
+
+        // Header scroll effect
+        const mainHeader = document.querySelector('.main-header');
+        window.addEventListener('scroll', () => {
+            if (window.pageYOffset > 100) {
+                mainHeader.classList.add('scrolled');
+            } else {
+                mainHeader.classList.remove('scrolled');
+            }
+        });
+
+        // Form submission
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Get form data
+            const formData = new FormData(this);
+            const data = Object.fromEntries(formData);
+            
+            // Show success message
+            alert('Thank you for contacting us! We will get back to you within 24 hours.');
+            
+            // Reset form
+            this.reset();
+            
+        });
+
+        // Scroll animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.contact-card, .booking-option-card, .department-item').forEach(el => {
+            observer.observe(el);
+        });
+    </script>
+</body>
+</html>

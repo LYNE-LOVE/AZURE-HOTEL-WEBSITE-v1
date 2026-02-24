@@ -1,8 +1,4 @@
-/* ====================================================================================
-   AZURE HORIZON HOTEL - ROOMS & SUITES PAGE CSS
-   Video Hero | Premium Room Cards | Smooth Gradients | Professional Animations
-==================================================================================== */
-
+/*AZURE HORIZON HOTEL - ROOMS & SUITES PAGE CSS*/
 :root {
     /* Azure Horizon Color Palette */
     --primary-deep-blue: #0a2463;
@@ -544,24 +540,36 @@ body {
     background: linear-gradient(135deg,
         var(--primary-sky-blue) 0%,
         var(--accent-aqua) 100%);
+    background-image: url('room10.jpeg'); /* ADD YOUR IMAGE HERE */
+    background-size: cover;
+    background-position: center;
 }
 
 .executive-suite {
     background: linear-gradient(135deg,
         var(--accent-aqua) 0%,
         var(--accent-turquoise) 100%);
+    background-image: url('room2.jpeg'); /* ADD YOUR IMAGE HERE */
+    background-size: cover;
+    background-position: center;
 }
 
 .romantic-suite {
     background: linear-gradient(135deg,
         var(--accent-turquoise) 0%,
         var(--accent-mint) 100%);
+    background-image: url('room1.jpeg'); /* ADD YOUR IMAGE HERE */
+    background-size: cover;
+    background-position: center;
 }
 
 .presidential-villa {
     background: linear-gradient(135deg,
         var(--accent-mint) 0%,
         var(--accent-seafoam) 100%);
+    background-image: url('room5.jpeg'); /* ADD YOUR IMAGE HERE */
+    background-size: cover;
+    background-position: center;
 }
 
 .room-overlay {

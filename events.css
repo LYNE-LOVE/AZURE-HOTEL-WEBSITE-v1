@@ -1,8 +1,4 @@
-/* ===================================
-   EVENTS PAGE - AZURE HORIZON HOTEL
-   Event Listings, Registration & Ticketing
-   =================================== */
-
+/* EVENTS PAGE  */
 /* ROOT VARIABLES - Extended Color Palette */
 :root {
     /* Blue Shades */
@@ -80,9 +76,7 @@ body {
     padding: 0 2rem;
 }
 
-/* ===================================
-   HEADER / NAVIGATION
-   =================================== */
+/*HEADER / NAVIGATION*/
 .main-header {
     position: fixed;
     top: 0;
@@ -207,9 +201,7 @@ body {
     border-radius: 3px;
 }
 
-/* ===================================
-   HERO SECTION
-   =================================== */
+/*HERO SECTION*/
 .events-hero {
     position: relative;
     height: 70vh;
@@ -227,6 +219,9 @@ body {
     width: 100%;
     height: 100%;
     background: linear-gradient(135deg, var(--navy-deep) 0%, var(--ocean-blue) 20%, var(--aqua-main) 40%, var(--jade) 60%, var(--emerald) 80%, var(--mint) 100%);
+    background-image: url('gala.jpeg');
+    background-size: cover;
+    background-position: center;
     z-index: 1;
 }
 
@@ -317,9 +312,7 @@ body {
     to { opacity: 1; transform: translateY(0); }
 }
 
-/* ===================================
-   INTRO & CREDIBILITY SECTION
-   =================================== */
+/*INTRO & CREDIBILITY SECTION*/
 .events-intro {
     padding: var(--spacing-xl) 0;
     background: linear-gradient(to bottom, var(--white) 0%, var(--ice-blue) 30%, var(--aqua-pale) 70%, var(--seafoam) 100%);
@@ -398,9 +391,7 @@ body {
     letter-spacing: 0.5px;
 }
 
-/* ===================================
-   UPCOMING EVENTS SECTION
-   =================================== */
+/*UPCOMING EVENTS SECTION*/
 .upcoming-events {
     padding: var(--spacing-xl) 0;
     background: linear-gradient(to bottom, var(--seafoam) 0%, var(--powder-blue) 50%, var(--ice-blue) 100%);
@@ -463,21 +454,36 @@ body {
 .event-card:hover .image-placeholder {
     transform: scale(1.1);
 }
-
+/*EVENT IMAGE BACKGROUNDS*/
 .gala-event {
     background: linear-gradient(135deg, var(--navy-deep) 0%, var(--ocean-blue) 50%, var(--aqua-main) 100%);
+    background-image: url('galito.jpeg'); 
+    background-size: cover;
+    background-position: center;
 }
 
+/* Tennis Championship */
 .tennis-tournament {
     background: linear-gradient(135deg, var(--forest-green) 0%, var(--jade) 50%, var(--mint) 100%);
+    background-image: url('eventback.jpeg'); 
+    background-size: cover;
+    background-position: center;
 }
 
+/* Culinary Festival */
 .culinary-fest {
     background: linear-gradient(135deg, var(--aqua-main) 0%, var(--aqua-bright) 50%, var(--sage) 100%);
+    background-image: url('culifest.jpeg'); 
+    background-size: cover;
+    background-position: center;
 }
 
+/* Wedding Expo */
 .wedding-expo {
     background: linear-gradient(135deg, var(--ocean-blue) 0%, var(--sky-blue) 50%, var(--aqua-light) 100%);
+    background-image: url('wedding.jpeg'); 
+    background-size: cover;
+    background-position: center;
 }
 
 .event-badge {
@@ -637,9 +643,7 @@ body {
     box-shadow: 0 8px 30px rgba(20, 184, 166, 0.5);
 }
 
-/* ===================================
-   EVENT SCHEDULE SECTION
-   =================================== */
+/*EVENT SCHEDULE SECTION*/
 .event-schedule {
     padding: var(--spacing-xl) 0;
     background: linear-gradient(to bottom, var(--ice-blue) 0%, var(--aqua-pale) 50%, var(--seafoam) 100%);
@@ -712,9 +716,7 @@ body {
     line-height: 1.7;
 }
 
-/* ===================================
-   SPONSORS SECTION
-   =================================== */
+/*SPONSORS SECTION*/
 .sponsors-section {
     padding: var(--spacing-xl) 0;
     background: linear-gradient(to bottom, var(--seafoam) 0%, var(--powder-blue) 50%, var(--ice-blue) 100%);
@@ -766,9 +768,7 @@ body {
     text-align: center;
 }
 
-/* ===================================
-   LOCATION MAP SECTION
-   =================================== */
+/*LOCATION MAP SECTION*/
 .location-map {
     padding: var(--spacing-xl) 0;
     background: linear-gradient(to bottom, var(--ice-blue) 0%, var(--aqua-pale) 100%);
@@ -872,9 +872,7 @@ body {
     margin: 0;
 }
 
-/* ===================================
-   FAQ SECTION
-   =================================== */
+/*FAQ SECTION */
 .faq-section {
     padding: var(--spacing-xl) 0;
     background: linear-gradient(to bottom, var(--aqua-pale) 0%, var(--seafoam) 50%, var(--powder-blue) 100%);
@@ -948,9 +946,7 @@ body {
     color: var(--dark-gray);
 }
 
-/* ===================================
-   REGISTRATION FORM SECTION
-   =================================== */
+/*REGISTRATION FORM SECTION*/
 .registration-section {
     padding: var(--spacing-xl) 0;
     background: linear-gradient(to bottom, var(--powder-blue) 0%, var(--ice-blue) 50%, var(--aqua-pale) 100%);
@@ -1181,9 +1177,7 @@ body {
     color: var(--jade);
 }
 
-/* ===================================
-   EVENTS CTA
-   =================================== */
+/*EVENTS CTA */
 .events-cta {
     position: relative;
     padding: var(--spacing-xl) 0;
@@ -1291,9 +1285,7 @@ body {
     transform: translateY(-3px);
 }
 
-/* ===================================
-   FOOTER
-   =================================== */
+/*FOOTER*/
 .main-footer {
     background: linear-gradient(to bottom, var(--navy-deep) 0%, var(--deep-teal) 100%);
     color: var(--white);
